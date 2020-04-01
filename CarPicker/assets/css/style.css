@@ -1,0 +1,36 @@
+/* Arslan Khayrullin */
+/* ISTE-340 */
+/* Project 1 - Car Picker */
+/* 02/23/2020 */
+
+/* Background image */
+body {
+	background:url(../img/Background.jpg);
+    background-size: cover;
+}
+
+/* Aligns Dropdown Menu */
+div {
+	text-align: center;
+}
+
+/* Customizes Dropdown Menu */
+select {
+	font-family: inherit;
+	font-size: 25px;
+	color: red;
+	background-color: black;
+	appearance: none; 
+    cursor: pointer; 
+    border:1px solid black; 
+    border-radius:3px; 
+}
+
+/* Aligns "Remove Current Image" Button */
+button {
+	float: left;
+	text-align: center;
+	position:absolute;
+	bottom:0;
+	margin-left: 45%;
+}
